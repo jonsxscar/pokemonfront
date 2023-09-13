@@ -1,0 +1,185 @@
+.card {
+  position: relative;
+  min-height: 14em;
+  width: 320px;
+  height: 414px;
+  text-decoration: none;
+  border-radius: 0.75em;
+  box-shadow: 0 3px 3px #0001;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: [x0] 1fr [x1] 1fr;
+  grid-template-rows: [y0] 40px [y1] 185px [y2] 20px [y3] 90px [y4] 25px [y5] 1fr;
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.name {
+  grid-column: x0 / x1;
+  grid-row: y0/y1;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 6%;
+  padding-top: 4%;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  grid-column: x0 / x2;
+  grid-row: y1/y2;
+  max-width: 320px;
+}
+
+.typetitle {
+  grid-column: x0 / x2;
+  grid-row: y2/y3;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-left: 4%;
+  color: rgb(0, 0, 0);
+}
+
+.types {
+  grid-column: x0 / x2;
+  grid-row: y3/y5;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutitle {
+  grid-column: x0 / x2;
+  grid-row: y4/y5;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-left: 4%;
+  color: rgb(0, 0, 0);
+}
+
+.about {
+  grid-column: x0 / x2;
+  grid-row: y5/y6;
+  display: flex;
+  justify-content: center;
+}
+
+/* About - Stats */
+
+.pokweight {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  margin-left: 8%;
+}
+
+.weight {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+
+.pokheight {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  margin-left: 8%;
+}
+
+.height {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+
+/* Colores de Titulos */
+
+.fire {
+  color: #f57d31;
+}
+
+.normal {
+  color: #aaa67f;
+}
+
+.fighting {
+  color: #c12239;
+}
+
+.flying {
+  color: #a891ec;
+}
+
+.ground {
+  color: #dec16b;
+}
+
+.poison {
+  color: #a43e9e;
+}
+
+.rock {
+  color: #b69e31;
+}
+
+.bug {
+  color: #a7b723;
+}
+
+.ghost {
+  color: #70559b;
+}
+
+.steel {
+  color: #b7b9d0;
+}
+
+.water {
+  color: #6493eb;
+}
+
+.grass {
+  color: #74cb48;
+}
+
+.electric {
+  color: #f9cf30;
+}
+
+.psychic {
+  color: #fb5584;
+}
+
+.ice {
+  color: #9ad6df;
+}
+
+.dragon {
+  color: #7037ff;
+}
+
+.dark {
+  color: #75574c;
+}
+
+.fairy {
+  color: #e69eac;
+}
+
+.unknown {
+  color: #a9a7aa;
+}
+
+.shadow {
+  color: #453f3a;
+}

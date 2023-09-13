@@ -1,0 +1,44 @@
+.nav{
+    height: 10vh;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo{
+    transition: all 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+/* Button Style */
+.create{
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background: none;
+
+    padding: 4px 8px;
+    color: #ffcb05ff; /*por si no sale el webkit*/
+    -webkit-text-fill-color: rgb(255, 238, 5); /* Relleno transparente */
+    -webkit-text-stroke: 2px rgb(79, 120, 207); /* Borde azul */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+
+.create:hover {
+    transform: scale(1.2);
+}
