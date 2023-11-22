@@ -76,5 +76,37 @@
     transition: transform 1s ease; /* Agrega transición suave */
   }
 
+/* Estilos para pantallas grandes */
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+  /* Agrega estilos aquí */
+  .landing{
+    width: 400px;
+  }
+/* Estilos para .poke cuando se hace hover */
+.poke:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
 
+.landingHovered {
+  width: 400px;
+  transform: translateX(-80px); /* Mueve la imagen "landing" hacia la izquierda */
+  transition: transform 1s ease; /* Agrega transición suave */
+}
+}
 
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  /* Agrega estilos aquí */
+  .landing{
+    display: none;
+  }
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 575px) {
+  /* Agrega estilos aquí */
+  .landing{
+    display: none;
+  }
+}

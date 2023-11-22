@@ -113,3 +113,33 @@ select {
     text-align: center;
     letter-spacing: 1px;
 }
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+    /* Agrega estilos aquí */
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media screen and (max-width: 767px) and (min-width: 576px) {
+    /* Agrega estilos aquí */
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto; 
+        grid-gap: 1rem;
+        margin-left: 6%;
+        padding-bottom: 2%;   
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas (móviles) */
+  @media screen and (max-width: 575px) {
+    /* Agrega estilos aquí */
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        margin-left: 5%;
+        padding-bottom: 2%;   
+    }
+  }
