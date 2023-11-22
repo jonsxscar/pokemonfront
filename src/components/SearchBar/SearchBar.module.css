@@ -38,4 +38,28 @@
    padding-left: 10px; 
  }
  
+ /* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+  /* Agrega estilos aquí */
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  /* Agrega estilos aquí */
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 575px) {
+  /* Agrega estilos aquí */
+  .searchBox{
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#232631;
+    height: 40px;
+    border-radius: 40px;
+    padding-left: 0px;
+ }
+ 
+}
  

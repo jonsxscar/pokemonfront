@@ -42,3 +42,29 @@
 .create:hover {
     transform: scale(1.2);
 }
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+    /* Agrega estilos aquí */
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media screen and (max-width: 767px) and (min-width: 576px) {
+    /* Agrega estilos aquí */
+  }
+  
+  /* Estilos para pantallas pequeñas (móviles) */
+  @media screen and (max-width: 575px) {
+    /* Agrega estilos aquí */
+    .nav{
+        height: 10vh;
+        background-color: #0d1b2a;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }

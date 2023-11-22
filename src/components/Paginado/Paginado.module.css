@@ -23,3 +23,35 @@
     display: flex;
     justify-content: center;
 }
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+  /* Agrega estilos aquí */
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  /* Agrega estilos aquí */
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 575px) {
+  /* Agrega estilos aquí */
+  .buttons {
+    margin-top: 150%;
+    --size: 32px;
+    --margin: 2px;
+    margin: 0 var(--margin);
+    border-radius: 6px;
+    background: #0d1b2a;
+    max-width: auto;
+    min-width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 6px;
+    color: rgb(121, 121, 121);
+  }
+}
