@@ -150,3 +150,33 @@ a {
 .shadow {
   color: #453f3a;
 }
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+  /* Agrega estilos aquí */
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  /* Agrega estilos aquí */
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 575px) {
+  /* Agrega estilos aquí */
+  .containerDetail {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr ;
+    background-color: #232631;
+    margin: 1em 3em 3em 3em;
+  }
+
+  .containerImg img {
+    width: 15em;
+  }
+
+  .poke {
+    width: 5em;
+  }
+}

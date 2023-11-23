@@ -207,7 +207,7 @@ const Formulario = () => {
 
       <form className={style.form} onSubmit={handleSubmit}>
         <div className={style.container1}>
-          <div>
+          <div className={style.imgcat}>
             <img src={create} alt="crear" width="250em" />
           </div>
           <div className={style.stats}>
